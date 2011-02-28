@@ -51,7 +51,7 @@ SortableTree.Node = Class.create({
     }, options.droppable);
 
     this.draggable_options = Object.extend({
-      ghosting: true,
+      ghosting: false,
       revert: true,
       constraint:  'vertical',
       reverteffect: function(element, top_offset, left_offset) {
